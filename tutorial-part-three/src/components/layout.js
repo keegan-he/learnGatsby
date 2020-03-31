@@ -18,9 +18,6 @@ export default ({ children }) => (
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
     </header>
-    <footer style={{marginBottom: `250rem`}}>
-    <h6 style={{fontStyle: `italic`}}>yoyoyo</h6>
-    </footer>
     {children}
   </div>
 )
