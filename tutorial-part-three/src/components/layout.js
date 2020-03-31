@@ -18,6 +18,9 @@ export default ({ children }) => (
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
     </header>
+    <footer style={{fontSize: `.8rem`, position: `fixed`, left: `0`, bottom: `0`, width: `100%`, backgroundColor: `aqua`, textAlign: `center`}}>
+    Copyright. Dr. Helmbrecht 2001
+    </footer>
     {children}
   </div>
 )
