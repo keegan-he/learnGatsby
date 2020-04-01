@@ -5,5 +5,16 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `Title from siteMetaData`
+  },
+  plugins: [
+    `gatsby-plugin-emotion`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+  ],
 }
