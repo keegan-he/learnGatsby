@@ -29,7 +29,7 @@ export default ({ children }) => (
         textAlign: `center`,
       }}
     >
-      Copyright. Dr. Helmbrecht 2001
+      Copyright. Dr. Helmbrecht 2001 A Space Odyssey.
     </footer>
     {children}
   </div>
