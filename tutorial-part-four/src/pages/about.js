@@ -9,6 +9,8 @@ export default ({ data }) => (
       We're the only site running on your computer dedicated to showing the best
       photos and videos of pandas eating lots of food.
     </p>
+
+    <p>P.s. I'm learning graphql!</p>
   </Layout>
 )
 
