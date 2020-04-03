@@ -10,7 +10,7 @@ export default ({ data }) => (
       photos and videos of pandas eating lots of food.
     </p>
 
-    <p>P.s. I'm learning graphql!</p>
+    <p>P.s. I'm learning graphql! Hope you are havving a good day!</p>
   </Layout>
 )
 
