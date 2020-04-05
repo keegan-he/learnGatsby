@@ -15,7 +15,7 @@ export default ({ data }) => {
               <th>prettySize</th>
               <th>extension</th>
               <th>birthTime</th>
-              <th>Bawlz</th>
+              <th>name</th>
               <th>ChangeTime</th>
             </tr>
           </thead>
