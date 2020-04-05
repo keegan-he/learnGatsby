@@ -15,6 +15,7 @@ export default ({ data }) => {
               <th>prettySize</th>
               <th>extension</th>
               <th>birthTime</th>
+              <th>Bawlz</th>
             </tr>
           </thead>
           <tbody>
@@ -24,6 +25,7 @@ export default ({ data }) => {
                 <td>{node.prettySize}</td>
                 <td>{node.extension}</td>
                 <td>{node.birthTime}</td>
+                <td>{node.name}</td>
               </tr>
             ))}
           </tbody>
@@ -39,6 +41,7 @@ export const query = graphql`
       edges {
         node {
           relativePath
+          name
           prettySize
           extension
           birthTime(fromNow: true)
