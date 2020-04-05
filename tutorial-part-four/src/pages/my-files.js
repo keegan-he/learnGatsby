@@ -16,6 +16,7 @@ export default ({ data }) => {
               <th>extension</th>
               <th>birthTime</th>
               <th>Bawlz</th>
+              <th>ChangeTime</th>
             </tr>
           </thead>
           <tbody>
@@ -26,6 +27,7 @@ export default ({ data }) => {
                 <td>{node.extension}</td>
                 <td>{node.birthTime}</td>
                 <td>{node.name}</td>
+                <td>{node.changeTime}</td>
               </tr>
             ))}
           </tbody>
@@ -44,6 +46,7 @@ export const query = graphql`
           name
           prettySize
           extension
+          changeTime
           birthTime(fromNow: true)
         }
       }
