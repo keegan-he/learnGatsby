@@ -1,8 +1,8 @@
 import React from "react"
 import { css } from "@emotion/core"
 import { useStaticQuery, Link, graphql } from "gatsby"
-
 import { rhythm } from "../utils/typography"
+import Header from './header'
 export default ({ children }) => {
   const data = useStaticQuery(
     graphql`
@@ -16,6 +16,7 @@ export default ({ children }) => {
     `
   )
   return (
+    
     <div
       css={css`
         margin: 0 auto;
